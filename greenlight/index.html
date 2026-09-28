@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GREENLIGHT — The Game Pass Review · Late September 2026</title>
+<meta name="description" content="GREENLIGHT reviews the newest Xbox Game Pass games: Dune: Awakening, Well Dweller, Ninja Gaiden 4, Keeper, Kernel Hearts, RuneScape: Dragonwilds, Minecraft Dungeons II and Mad King Redemption. Browse by genre, filter the lineup, and find what to play tonight.">
+<meta name="theme-color" content="#0b0c0e">
+<meta property="og:title" content="GREENLIGHT — The Game Pass Review">
+<meta property="og:description" content="Sourced reviews of the newest Xbox Game Pass games, genre browsing and a what-to-play-tonight picker.">
+<meta property="og:image" content="img/dune-awakening-2-1600.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23107C10'/%3E%3Ctext x='16' y='23' font-family='Arial Black,Arial' font-weight='900' font-size='18' text-anchor='middle' fill='white'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preload" href="fonts/Anton-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/dune-awakening-2-800.webp" imagesrcset="img/dune-awakening-2-400.webp 400w, img/dune-awakening-2-800.webp 800w, img/dune-awakening-2-1600.webp 1600w" imagesizes="(max-aspect-ratio: 16/9) 178vh, 100vw" fetchpriority="high">
+<link rel="preload" href="data/issue.json" as="fetch" type="application/json" crossorigin="anonymous">
+<link rel="preload" href="js/app.js" as="script">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#/" aria-label="GREENLIGHT home"><span class="brand-mark" aria-hidden="true"></span>GREENLIGHT</a>
+  <nav class="topnav" aria-label="Primary">
+    <a href="#/" data-nav="home">Issue</a>
+    <a href="#/genres" data-nav="genres">Genres</a>
+    <a href="#/lineup" data-nav="lineup">Lineup</a>
+    <a href="#/verdict" data-nav="verdict">Verdict</a>
+    <a href="#/sources" data-nav="sources">Sources</a>
+  </nav>
+  <span class="issue-pill">Late Sept 2026</span>
+</header>
+<main id="app" tabindex="-1" aria-live="polite"></main>
+<nav class="tabbar" aria-label="Primary (mobile)">
+  <a href="#/" data-nav="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z M4 9h16"/></svg><span>Issue</span></a>
+  <a href="#/genres" data-nav="genres"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg><span>Genres</span></a>
+  <a href="#/lineup" data-nav="lineup"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>Lineup</span></a>
+  <a href="#/verdict" data-nav="verdict"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg><span>Verdict</span></a>
+  <a href="#/sources" data-nav="sources"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z M9 10h6M9 14h6M9 18h4"/></svg><span>Sources</span></a>
+</nav>
+<dialog class="lightbox" id="lightbox" aria-label="Screenshot viewer">
+  <div class="lb-stage" id="lbStage"><img id="lbImg" alt=""></div>
+  <div class="lb-bar">
+    <span class="lb-count" id="lbCount"></span>
+    <span class="lb-cap" id="lbCap"></span>
+  </div>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous screenshot">‹</button>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Next screenshot">›</button>
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Close viewer">✕</button>
+</dialog>
+<noscript><p style="padding:2rem;color:#fff">GREENLIGHT needs JavaScript to load the issue data.</p></noscript>
+<script src="js/app.js" defer></script>
+</body>
+</html>
