@@ -1,0 +1,197 @@
+{
+ "dune-awakening": {
+  "steam": 1172710,
+  "name": "Dune: Awakening",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/c4f058fb805eefa9f07f1cb3a695a9534ba1920a/ss_c4f058fb805eefa9f07f1cb3a695a9534ba1920a.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ae8340a47868d75e3d29ee6038eb4159ee13dd5c/ss_ae8340a47868d75e3d29ee6038eb4159ee13dd5c.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ss_8616aceb30a8b01979c16a5aea46f9ef587f7ff3.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/45924e55eb2d04831e1e47f96949d6b673790fe4/ss_45924e55eb2d04831e1e47f96949d6b673790fe4.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/7884f1a28a95790981c22375997b2c08288ec8da/ss_7884f1a28a95790981c22375997b2c08288ec8da.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/ea0c516831519ca1e3d47329ef9874d45a156cfa/ss_ea0c516831519ca1e3d47329ef9874d45a156cfa.1920x1080.jpg"
+  ]
+ },
+ "well-dweller": {
+  "steam": 3699590,
+  "name": "Well Dweller",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/2c675d65378a8e5c88cba0e9e46c8655d87c1f8d/ss_2c675d65378a8e5c88cba0e9e46c8655d87c1f8d.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/db0c09b10c244e508640a40cfee2442471e2928e/ss_db0c09b10c244e508640a40cfee2442471e2928e.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/aed9afbfa49cc3d171b59566bcc2861e545f9631/ss_aed9afbfa49cc3d171b59566bcc2861e545f9631.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/37b970a9822b1b3acc293c093c33eaadc45c49d3/ss_37b970a9822b1b3acc293c093c33eaadc45c49d3.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/196a8fcc56288f8ba4dbebd8c3440cf1e73ee655/ss_196a8fcc56288f8ba4dbebd8c3440cf1e73ee655.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/f510d8f7350d5f1d1b22ed249570c6c5dca7b997/ss_f510d8f7350d5f1d1b22ed249570c6c5dca7b997.1920x1080.jpg"
+  ]
+ },
+ "ninja-gaiden-4": {
+  "steam": 2627260,
+  "name": "NINJA GAIDEN 4",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/ss_149a8c8c3efef7c6ae41374b9aa102ac98f3dc8e.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/ss_e28b694c60ba173af5bb9a7a8b57be24fd9a7679.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/ss_e8fc97d4766a0e62a5cb218753c45136f615d5ba.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/ss_bd4c78adadf0236f8482faf86abc2020267f4fa7.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/ss_4360c0bd16ac595b91a51897c6f2d2673a83376e.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/ss_83ebe7af6a6c5e8297da767c279cb197c491c692.1920x1080.jpg"
+  ]
+ },
+ "keeper": {
+  "steam": 3043580,
+  "name": "Keeper",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/f6ddce24d27462ff55f6343c616d12fe71a996f5/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/11e0d589997badbcc6d62c672df126e49df95523/ss_11e0d589997badbcc6d62c672df126e49df95523.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/0f0c1c70409fcc93b1968fb3898897bc8db5f8d2/ss_0f0c1c70409fcc93b1968fb3898897bc8db5f8d2.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/f59a65d88c5c9fdc7580d6c09eb11cc129a5bd18/ss_f59a65d88c5c9fdc7580d6c09eb11cc129a5bd18.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/a3e156650f61b4b181d9635d8c03135f6fec1440/ss_a3e156650f61b4b181d9635d8c03135f6fec1440.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/2960f4e9f71d70a36059aedd636514d05b6a560a/ss_2960f4e9f71d70a36059aedd636514d05b6a560a.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3043580/c82cc02865d5d4b092f21682e5ceace7c4b616ff/ss_c82cc02865d5d4b092f21682e5ceace7c4b616ff.1920x1080.jpg"
+  ]
+ },
+ "kernel-hearts": {
+  "steam": 2902170,
+  "name": "Kernel Hearts",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/09df5ddeda45059fede495764d25af1f82db5595/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/8ee81da0a56173915f4a1555fdb60d94e7858d34/ss_8ee81da0a56173915f4a1555fdb60d94e7858d34.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/88078553b7fdd46bf11f0bcc1c435c0780e3a199/ss_88078553b7fdd46bf11f0bcc1c435c0780e3a199.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/674a81ec253e5753f3df34b628bc8479ad0e1d2d/ss_674a81ec253e5753f3df34b628bc8479ad0e1d2d.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/0edb6ca2e74c29ac41cd96308c0fc8d0d132fdd7/ss_0edb6ca2e74c29ac41cd96308c0fc8d0d132fdd7.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/a7410d408fbbb0ea6cb91100314b3b7a26d054cc/ss_a7410d408fbbb0ea6cb91100314b3b7a26d054cc.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/ss_2ddb69c6d0d4b3b45b5afe7d2909c113ce7c57b3.1920x1080.jpg"
+  ]
+ },
+ "runescape-dragonwilds": {
+  "steam": 1374490,
+  "name": "RuneScape: Dragonwilds",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/0e1f8e3e13a1effc44bf507917970319a8157731/header_alt_assets_4.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/8f802b85a8f1002967f4943f76e1d645d1ffb061/ss_8f802b85a8f1002967f4943f76e1d645d1ffb061.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/ae64662c060ee16121ab3783bd39efb21f8827a1/ss_ae64662c060ee16121ab3783bd39efb21f8827a1.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/d16ec143fa679838d2a88c25798becde17990500/ss_d16ec143fa679838d2a88c25798becde17990500.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/966ec8f30724404f0350db52141357665174b505/ss_966ec8f30724404f0350db52141357665174b505.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/7108bff5c986feac733863511cabd916a9ead6dc/ss_7108bff5c986feac733863511cabd916a9ead6dc.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/971a8e1f502a3450d3fc3c6dcc7a983e1b804a1c/ss_971a8e1f502a3450d3fc3c6dcc7a983e1b804a1c.1920x1080.jpg"
+  ]
+ },
+ "minecraft-dungeons-ii": {
+  "steam": 1912410,
+  "name": "Minecraft Dungeons II",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/8da08fa96f0a741a07c0781e5ffa433d8d09a9db/ss_8da08fa96f0a741a07c0781e5ffa433d8d09a9db.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/e72e86828f37884cadea0de78213298f5d390aba/ss_e72e86828f37884cadea0de78213298f5d390aba.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/02c5d7b63145ed9f50753b1f8bc1f82e7eb382fb/ss_02c5d7b63145ed9f50753b1f8bc1f82e7eb382fb.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/b8c9c8e8e9528c8f3ecbde353234f04df1a276ac/ss_b8c9c8e8e9528c8f3ecbde353234f04df1a276ac.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/6aa577cfee44ddc8862cb617996ab67c6dca08a8/ss_6aa577cfee44ddc8862cb617996ab67c6dca08a8.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/5e5f4401c6df921243a85296d834a28fdbb82ed1/ss_5e5f4401c6df921243a85296d834a28fdbb82ed1.1920x1080.jpg"
+  ]
+ },
+ "mad-king-redemption": {
+  "steam": 2369580,
+  "name": "Mad King Redemption",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/1a2fb4d037a746e1554f28fbc5aa92a711d170f8/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/82b3845b531ec6323c90f7fa8f65ef32a4daf637/ss_82b3845b531ec6323c90f7fa8f65ef32a4daf637.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/bd47dedd22f9f6dd5f91922c0045a450892f2ab2/ss_bd47dedd22f9f6dd5f91922c0045a450892f2ab2.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/5869ce615f92e35f874e2e8d4afb1e4093c022af/ss_5869ce615f92e35f874e2e8d4afb1e4093c022af.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/adaa43f33f376a024e8437bd1f7502aaf30e5105/ss_adaa43f33f376a024e8437bd1f7502aaf30e5105.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/e6f8a318ebc7375cece96696b8da27365be4d610/ss_e6f8a318ebc7375cece96696b8da27365be4d610.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/375fc6c5c28aa5cb02069b6f197e32dfd500a952/ss_375fc6c5c28aa5cb02069b6f197e32dfd500a952.1920x1080.jpg"
+  ]
+ },
+ "gears-of-war-e-day": {
+  "steam": 3010850,
+  "name": "Gears of War: E-Day",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/1abb0c5ef76c14f463dd6e3964adb64f984237d2/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/82631b6762963c60ad1ea684fac235686a10027b/ss_82631b6762963c60ad1ea684fac235686a10027b.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/37897def33e3cf6f7783c853aafb8dcc48b16a69/ss_37897def33e3cf6f7783c853aafb8dcc48b16a69.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/4a5afdf34569097c3db927612f24a24c8766a956/ss_4a5afdf34569097c3db927612f24a24c8766a956.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/9a6bfbc4ee6c9ad07493769c20a43271f554490a/ss_9a6bfbc4ee6c9ad07493769c20a43271f554490a.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/9c34dc39d73fcb6acb8ac444f20026a1e5194956/ss_9c34dc39d73fcb6acb8ac444f20026a1e5194956.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/e3833eef1e791059ccc552657987135061dd1e22/ss_e3833eef1e791059ccc552657987135061dd1e22.1920x1080.jpg"
+  ]
+ },
+ "marvel-cosmic-invasion": {
+  "steam": 2753970,
+  "name": "MARVEL Cosmic Invasion",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/1ddb6ff382471f431fdfd1f28e95e0565633db1d/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/687bc6f6ee19ec5407642a87e27fe3c734070187/ss_687bc6f6ee19ec5407642a87e27fe3c734070187.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/01a98aa8d4e92653b94149a683b5020f51de357f/ss_01a98aa8d4e92653b94149a683b5020f51de357f.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/5d079c80e780754047575f59c34ed24582339a09/ss_5d079c80e780754047575f59c34ed24582339a09.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/101adcccc019d0411c54e3a0c41e8c06ae35252d/ss_101adcccc019d0411c54e3a0c41e8c06ae35252d.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/d3f58ecdf0edc6026dcd9f0bd6eb5bae2ba28de5/ss_d3f58ecdf0edc6026dcd9f0bd6eb5bae2ba28de5.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/7912cc9d76284db3922f2ccef913b2fab33596af/ss_7912cc9d76284db3922f2ccef913b2fab33596af.1920x1080.jpg"
+  ]
+ },
+ "planet-of-lana-ii": {
+  "steam": 2997230,
+  "name": "Planet of Lana II",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7712fdf6cd6531709c16920f8b20b6ee146ac9f8/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/3bb9e8596166cc5bfa9db593e4b69dca690608f4/ss_3bb9e8596166cc5bfa9db593e4b69dca690608f4.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/b599e052f7251954f97f4f37b3ad684b14d47bff/ss_b599e052f7251954f97f4f37b3ad684b14d47bff.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7f07d3cbf63ec0947fb86f9d3b41633882eaa959/ss_7f07d3cbf63ec0947fb86f9d3b41633882eaa959.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/9de6fe8c24db19d13187974c9ffa7be2ec9728a9/ss_9de6fe8c24db19d13187974c9ffa7be2ec9728a9.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/38aac81d9ecce7daa389c902d707ac09e8ba26eb/ss_38aac81d9ecce7daa389c902d707ac09e8ba26eb.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/e046df87006cfeb541e48c057b674f97aeb4fce0/ss_e046df87006cfeb541e48c057b674f97aeb4fce0.1920x1080.jpg"
+  ]
+ },
+ "routine": {
+  "steam": 606160,
+  "name": "ROUTINE",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/ebdc630cc5e78005f5912721bca3a70bdc620a7e/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/ffb9d3685274c1ffd8b612573d4d6b14598d2956/ss_ffb9d3685274c1ffd8b612573d4d6b14598d2956.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/296ce8bb07a2ce169bfffd9c85c3466d4289687e/ss_296ce8bb07a2ce169bfffd9c85c3466d4289687e.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/51c8ab7e264d83b6becdf44cd6e72efe9b3996a8/ss_51c8ab7e264d83b6becdf44cd6e72efe9b3996a8.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/84ba4a51caf5323ec9925767a2e78ab6775897ce/ss_84ba4a51caf5323ec9925767a2e78ab6775897ce.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/a127ad2a86a0972058f7345f8e9107543e814ac8/ss_a127ad2a86a0972058f7345f8e9107543e814ac8.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/41ad9c1dbbd030a661a2aaaf8aad5b4b35716eaf/ss_41ad9c1dbbd030a661a2aaaf8aad5b4b35716eaf.1920x1080.jpg"
+  ]
+ },
+ "ultimate-sheep-raccoon": {
+  "steam": 2923350,
+  "name": "Ultimate Sheep Raccoon",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/56a010e4b8d6afc5be654578ff017bbf5fc7f01d/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/3429112b7169af22f18609d916f17e3092beb9e5/ss_3429112b7169af22f18609d916f17e3092beb9e5.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/0a5029cf5fa7376593820a8212abe4bcf8d30607/ss_0a5029cf5fa7376593820a8212abe4bcf8d30607.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/54635199a41d27837562717ecb703dd8dc1a3897/ss_54635199a41d27837562717ecb703dd8dc1a3897.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/c30319c87de1664de0d131a6a0ea478bc4ab7794/ss_c30319c87de1664de0d131a6a0ea478bc4ab7794.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/c8b3bdd5467ff9190952ab99b6117aa519b59a17/ss_c8b3bdd5467ff9190952ab99b6117aa519b59a17.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2923350/ss_a0265498e5167d0bff00817bc65ed627b318aedf.1920x1080.jpg"
+  ]
+ },
+ "call-of-duty-black-ops-6": {
+  "steam": 2933620,
+  "name": "Call of Duty\u00ae",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ca97243a998802a38c7cddf195cee327c5760353/ss_ca97243a998802a38c7cddf195cee327c5760353.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/6b8f4040a1e923f036e04d9eb21ecb0f866be57e/ss_6b8f4040a1e923f036e04d9eb21ecb0f866be57e.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/c6f865bd79b76a1fa50c59cd17a68d7837abf0b2/ss_c6f865bd79b76a1fa50c59cd17a68d7837abf0b2.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/619503d5c40001a5e72717bedccbbca027084d94/ss_619503d5c40001a5e72717bedccbbca027084d94.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/88dbb0eae312359216204ce3ab34b2f476177efd/ss_88dbb0eae312359216204ce3ab34b2f476177efd.1920x1080.jpg"
+  ]
+ },
+ "rematch": {
+  "steam": 2138720,
+  "name": "REMATCH",
+  "header": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/cafe24aa9b3c329c4a083b017cbdd7965b6e23c3/header_alt_assets_1.jpg",
+  "shots": [
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/8d7ad264920300da08a3b7795b3714db3e7d1e0a/ss_8d7ad264920300da08a3b7795b3714db3e7d1e0a.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/512142d4448903124746b3a41fe8070c007e8aac/ss_512142d4448903124746b3a41fe8070c007e8aac.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/ss_c9fb7a8edb33440b80d4f98866e95da4c0afb819.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/ss_bbe8507b799511b9008af67ac5c32115a9765abf.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/5922d43109c170197ba1abd6e51973363c5ee705/ss_5922d43109c170197ba1abd6e51973363c5ee705.1920x1080.jpg",
+   "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/f27b62620af398202c73f3f4990a0e3be34bba4b/ss_f27b62620af398202c73f3f4990a0e3be34bba4b.1920x1080.jpg"
+  ]
+ }
+}
