@@ -92,6 +92,7 @@ const gameHref = g => g.reviewed ? `#/review/${g.slug}` : `#/lineup?q=${g.slug}`
 const footer = () => `<footer class="site"><div class="wrap">
   <p><strong>GREENLIGHT</strong> · ${esc(D.site.tagline)} · Issue ${ISSUE.number}: ${esc(ISSUE.title)} (${esc(ISSUE.window)})</p>
   <p>Scores and data checked ${esc(fmtDateLong(D.site.checked))}, 2026. Only real scores from real outlets are shown; missing data is marked “Not yet reported”. Game art © the respective publishers. <a href="#/sources">Sources &amp; credits</a>.</p>
+  <p><strong>Editorial reviews are AI-assisted</strong> and fact-checked against the linked sources. Player reviews and comments (where enabled) are written by real, signed-in players. <a href="#/guidelines">Community guidelines</a> · <a href="#/privacy">Privacy</a></p>
   <p>Unofficial fan publication, not affiliated with Microsoft or Xbox.</p></div></footer>`;
 
 function card(g, { feature = false, extra = '', sizes = '(min-width:1000px) 33vw, (min-width:600px) 50vw, 100vw' } = {}) {
@@ -107,7 +108,7 @@ function row(g) {
   const inner = `${pic(g, 0, { sizes: '(min-width:700px) 160px, 96px', alt: '' })}
     <div><h3>${esc(g.title)}</h3><div class="meta"><span>${esc(fmtDateLong(g.date))}</span><span class="tiers">${esc(tierNames(g))}</span><span>${esc(g.genres.map(genreName).join(', '))}</span></div>
     ${g.reviewed ? '<span class="go">Read review →</span>' : `<div class="meta"><span>${esc(g.blurb)}</span></div>`}</div>
-    <div class="end">${scoreOrTag(g)}</div>`;
+    <div class="end">${scoreOrTag(g)}${g.reviewed ? `<span class="pmini-slot" data-pmini="${g.slug}"></span>` : ''}</div>`;
   return g.reviewed ? `<li><a class="row" href="#/review/${g.slug}" aria-label="${esc(g.title)} review">${inner}</a></li>` : `<li><div class="row" id="g-${g.slug}">${inner}</div></li>`;
 }
 
@@ -203,7 +204,7 @@ function bindLineup(q) {
     list.innerHTML = gs.length ? gs.map(row).join('') : '<li class="panel">No games match those filters. <button type="button" class="linkbtn" data-reset>Reset</button></li>';
     $('#count').textContent = `Showing ${gs.length} of ${D.games.length} games`;
     $$('[data-tier]', form).forEach(b => b.setAttribute('aria-pressed', b.dataset.tier === f.tier));
-    animateBadges(list);
+    animateBadges(list); if (window.GLC) GLC.after(list, 'lineup-list', [], {});
     if (push) { const p = new URLSearchParams(); Object.entries(f).forEach(([k, v]) => { if (v !== 'all' && !(k === 'sort' && v === 'date')) p.set(k, v); });
       const h = '#/lineup' + (p.toString() ? '?' + p : ''); if (location.hash !== h) history.replaceState(null, '', h); }
   };
@@ -245,11 +246,13 @@ function viewReview(slug) {
       <h1>${esc(g.title)}</h1>
       <p class="deck">${esc(g.deck)}</p>
       <div class="rhero-row">${badge(g, 'lg') ? `<div class="badge-wrap">${badge(g, 'lg')}<div class="badge-lab"><b>${esc(g.badge.label)}</b>${esc(g.badge.sub)}</div></div>` : `<div class="badge-wrap">${tag(g)}<div class="badge-lab"><b>${esc(g.badge.label)}</b>${esc(g.badge.sub)}</div></div>`}
+        <div class="pbadge-slot" data-pbadge="${g.slug}"></div>
         <a class="btn btn-primary" href="${esc(g.store)}" target="_blank" rel="noopener">Open in Xbox Store ↗</a></div>
     </div></header>
   <div class="wrap page" style="padding-top:18px">
     <div class="rgrid">
       <div class="rmain">
+        <p class="ai-label"><span class="ai-dot" aria-hidden="true"></span><span><strong>Editorial review · AI-assisted.</strong> Written with AI help and checked against the critic, performance and accessibility sources linked on this page. <a href="#community" data-scroll="community">Player reviews</a> are by real players.</span></p>
         <div class="prose">${g.body.map(p => `<p>${esc(p)}</p>`).join('')}</div>
         ${g.quote ? `<blockquote class="pull">“${esc(g.quote.text)}”<cite>— ${esc(g.quote.by)}</cite></blockquote>` : ''}
         <section class="hm section" aria-label="Hits and misses">
@@ -280,6 +283,7 @@ function viewReview(slug) {
         ${g.sources && g.sources.length ? `<div class="panel" style="margin-top:14px"><h2>Further reading</h2><ul style="margin:0;padding-left:18px">${g.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener" style="display:inline-block;padding:6px 0">${esc(s.label)}</a></li>`).join('')}</ul></div>` : ''}
       </aside>
     </div>
+    <section class="section community" id="community" data-game="${g.slug}" aria-labelledby="community-h"><div class="section-h"><div><span class="kicker">Community</span><h2 id="community-h">Player reviews</h2></div></div><div class="cm-body"></div></section>
     <nav class="pager" aria-label="More reviews"><a href="#/review/${prev.slug}"><small>← Previous</small><span>${esc(prev.title)}</span></a><a class="next" href="#/review/${next.slug}"><small>Next →</small><span>${esc(next.title)}</span></a></nav>
   </div></article>${footer()}`;
 }
@@ -453,6 +457,7 @@ function route() {
   else if (r === 'review') { html = viewReview(parts[1]); nav = ''; const g = G[parts[1]]; if (g) title = `${g.title} review · GREENLIGHT`; bind = () => bindReview(parts[1]); }
   else if (r === 'verdict') { html = viewVerdict(); nav = 'verdict'; title = 'The verdict · GREENLIGHT'; bind = bindVerdict; }
   else if (r === 'sources') { html = viewSources(); nav = 'sources'; title = 'Sources & credits · GREENLIGHT'; }
+  else if (window.GLC && GLC.handles(r)) { const v = GLC.view(r, parts, q); html = v.html; title = v.title; nav = v.nav || ''; bind = v.bind || null; }
   else html = viewNotFound();
   const same = app.dataset.route === path && r === 'lineup';
   if (same) return; // lineup filter updates use replaceState, no re-render needed
@@ -463,6 +468,7 @@ function route() {
   window.scrollTo(0, 0);
   if (bind) try { bind(); } catch (e) { console.error(e); }
   animateBadges(); reveal();
+  if (window.GLC) try { GLC.after(app, r, parts, q); } catch (e) { console.error(e); }
   if (route.first) app.focus({ preventScroll: true }); route.first = true;
 }
 document.addEventListener('click', e => {
@@ -472,6 +478,7 @@ document.addEventListener('click', e => {
 });
 addEventListener('scroll', () => document.body.classList.toggle('scrolled', scrollY > 40), { passive: true });
 addEventListener('hashchange', route);
+window.GL = { esc, fmtDate, fmtDateLong, genreName, footer, route, get D() { return D; }, get G() { return G; } };
 
 fetch('data/issue.json').then(r => r.json()).then(d => {
   D = d; ISSUE = d.issues[0]; d.games.forEach(g => G[g.slug] = g); route();
